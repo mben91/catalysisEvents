@@ -1,0 +1,53 @@
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #de156c;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 .title-back {
+  width: 100%;
+  border-top: 2px solid #999;
+}
+
+h3 .title-back span {
+  border-top: 6px solid #de156c;
+  margin-top: -4px;
+  width: 60%;
+  display: inline-block;
+}
+
+h3 .title {
+  padding: 0px 30px;
+  display: inline-block;
+  background: #fff;
+  margin-top: -16px;
+}
+
+.title:after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  border: 3px solid #de156c;
+  margin-top: 16px;
+  position: absolute;
+  margin-left: 14px;
+  transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -webkit-transform: rotate(-40deg);
+}
+
+.title:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  border: 3px solid #de156c;
+  margin-top: 4px;
+  position: absolute;
+  margin-left: -34px;
+  transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -webkit-transform: rotate(-40deg);
+}
